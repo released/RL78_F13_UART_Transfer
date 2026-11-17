@@ -1,0 +1,8 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Preserve exact bytes of formal MCU images and vendor libraries.
+*.hex -text
+*.bin -text
+*.mot -text
+*.lib -text
